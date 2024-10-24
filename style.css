@@ -1,0 +1,93 @@
+/* Header Section Styles */
+.header-section {
+  padding: 2rem 0; /* Adds spacing at the top and bottom */
+}
+
+.header-img {
+  width: 150px; /* Adjust the size of the image */
+  height: 150px; /* Adjust the size of the image */
+  border-radius: 50%; /* Makes the image round */
+  object-fit: cover; /* Keeps the image aspect ratio */
+  margin-bottom: 1rem; /* Adds space between the image and the text below */
+}
+
+.header-content {
+  text-align: center; /* Ensures the text is centered below the image */
+}
+
+.header-text {
+  color: #333333; /* Adjusts the color of the text */
+  font-size: 2rem; /* Makes the font size large for prominence */
+  font-weight: normal; /* Makes the text bold */
+  margin: 0; /* Removes any default margin */
+}
+
+.tagline {
+  color: #555555; /* A lighter color to differentiate the tagline */
+  font-size: 1.2rem; /* Slightly smaller font for the tagline */
+  margin-top: 0.5rem; /* Adds a bit of space between the heading and tagline */
+}
+
+/* Skills and Hobbies Section */
+.skills-hobbies-section {
+  padding: 2rem 0; /* Adds spacing at the top and bottom */
+}
+
+.skills-hobbies-section h3 {
+  text-align: center; /* Centers the heading text for "Skills" and "Hobbies" */
+  font-weight: normal;
+}
+
+.skills-list,
+.hobbies-list {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove default left padding */
+}
+
+.skills-list li,
+.hobbies-list li {
+  background-color: #f0f0f0; /* Light gray background for each item */
+  margin: 0.5rem 0; /* Adds space between items */
+  padding: 0.5rem 1rem; /* Padding for better appearance */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.skills-hobbies-section h3 {
+  text-align: center; /* Centers the heading text for "Skills" and "Hobbies" */
+  font-weight: normal; /* Sets the headings to normal weight */
+  padding: 0.5rem; /* Adds padding around the heading */
+  border: 1px solid #ccc; /* Adds a light border to create a boxed effect */
+  border-radius: 5px; /* Rounds the corners of the border */
+  display: inline-block; /* Makes the heading fit within its content */
+  margin-bottom: 1rem; /* Adds space below the heading */
+}
+
+
+/* Footer Section Styles */
+.footer-section {
+  background-color: #f8f9fa; /* Light background color */
+  color: #333333; /* Dark color for text */
+  padding: 2rem 0; /* Adds spacing at the top and bottom */
+  font-size: 1rem;
+}
+
+.footer-section .social-links a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Removes underline */
+  margin: 0 0.5rem; /* Adds space between links */
+  transition: color 0.3s ease; /* Adds a smooth transition effect */
+}
+
+.footer-section .social-links a:hover {
+  color: #0056b3; /* Changes color when the link is hovered over */
+}
+
+.footer-section p {
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 0.9rem; /* Smaller font size for secondary information */
+}
+
+.footer-section .mt-3 {
+  margin-top: 1.5rem; /* Adds top margin for the copyright text */
+}
+
